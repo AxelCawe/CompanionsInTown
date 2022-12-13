@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Module xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'
+        xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/BUTR/Bannerlord.XmlSchemas/master/SubModule.xsd" >
+  <Id value="CompanionsInTown" />
+  <Name value="Companions In Town" />
+  <Version value="v1.0.0" />
+  <DefaultModule value="false" />
+  <ModuleCategory value="Singleplayer" />
+  <ModuleType value="Community" />
+  <DependedModules>
+    <DependedModule Id="Bannerlord.Harmony" DependentVersion="v2.2.2" />
+  </DependedModules> 
+  <SubModules>
+    <SubModule>
+      <Name value="CompanionsInTown" />
+      <DLLName value="CompanionsInTown.dll" />
+      <SubModuleClassType value="CompanionsInTown.SubModule" />
+      <Tags />
+    </SubModule>
+  </SubModules>
+</Module>
